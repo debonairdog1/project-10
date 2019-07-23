@@ -1,0 +1,101 @@
+body{
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+/* navbar settings */
+.navbar{ 
+    background-color: rgba(80, 77, 77, 0.9);
+    border-bottom: solid black 5px;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+}
+.navbar li{
+    display: inline-block;
+    background-color: slategrey;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-right: 15px;
+    padding: 25px 35px;
+    border: grey;   
+    border-radius: 15px;
+}
+.navbar a{
+    color: whitesmoke;
+    text-decoration:none;
+}
+.navbar li:hover{
+    background-color: teal;
+}
+/* header */
+header{
+    font-size: 25px;
+    font-weight: bolder;
+    background-image: url(https://mynoise.net/Data/OCEAN/fb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: lightslategray;
+    padding: 150px;
+    min-height: 70px;
+    border-bottom: solid black 5px; 
+    clear: both;
+}
+/* articles */
+.article-one{
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/wAWl78z/high-quality-looping-animation-of-ocean-waves-from-underwater-light-rays-shining-through-marine-background-4k_v1uuu97bg__F0000.png);
+    background-size: cover;
+    background-position: fixed;
+    width:auto;
+    padding: 150px;
+    background-color: grey; 
+    border-bottom: solid black 5px; 
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.article-two{
+    padding: 5;
+    margin: 5;
+    background-image: url(https://kpbs.media.clients.ellingtoncms.com/assets/img/2018/05/17/shark-highway-1_wide-f5c8dae8a9b8799464ba0fa9822adf2572c44ee1_t800.jpg?90232451fbcadccc64a17de7521d859a8f88077d);
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    background-color: grey; 
+    border-bottom: solid black 5px; 
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.article-three{
+    background-color: beige;
+    background-image: url(https://i.ytimg.com/vi/M6vHdFiCa10/maxresdefault.jpg);
+    background-size: cover;
+    background-image: center;
+    padding: 150px;
+    font-size: 25px;
+    font-weight: bold;
+}
+/*box background for text*/
+#inner-one,
+#inner-two,
+#inner-three,
+#inner-four{
+    background-color:rgba(27, 3, 3, 0.5);
+    padding: 40px;
+    margin: 30px;
+    border-radius: 50px;
+}
+/* images */
+img{
+    border-radius: 30px;
+    margin: center;
+    border: slategray solid 10px;
+    width: 100%;
+    max-width: 20%;
+    float: left;
+}
+
